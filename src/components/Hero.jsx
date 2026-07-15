@@ -132,7 +132,7 @@ export default function Hero() {
           <button
             key={i}
             onClick={() => go(i)}
-            className={`w-2.5 h-2.5 rounded-full transition-all ${
+            className={`w-4 h-4 rounded-full transition-all ${
               i === current
                 ? "bg-yellow-400 scale-125"
                 : "bg-white/40 hover:bg-white/70"

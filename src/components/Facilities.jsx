@@ -56,7 +56,7 @@ export default function Facilities() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-sm font-semibold text-yellow-500 mb-2">FACILITIES</h2>
+          <h2 className="text-sm font-semibold text-amber-600 mb-2">FACILITIES</h2>
           <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Our Campus Facilities
           </h3>

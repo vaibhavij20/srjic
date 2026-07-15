@@ -16,7 +16,7 @@ export default function Stats() {
               }}
               className="bg-white rounded-2xl shadow-lg p-8 text-center"
             >
-              <h2 className="text-5xl font-bold text-yellow-500">
+              <h2 className="text-5xl font-bold text-amber-600">
                 {item.number}
               </h2>
 

@@ -61,7 +61,7 @@ export default function LeadershipMessages() {
                 {/* Name card overlay */}
                 <div className="absolute -bottom-6 left-6 bg-white border border-gray-100 shadow-lg px-5 py-3 rounded-xl">
                   <p className="font-bold text-gray-900 text-sm">{person.name}</p>
-                  <p className="text-yellow-500 text-xs font-medium">{person.title}</p>
+                  <p className="text-amber-600 text-xs font-medium">{person.title}</p>
                 </div>
               </motion.div>
 
@@ -73,7 +73,7 @@ export default function LeadershipMessages() {
                 transition={{ duration: 0.6 }}
                 className={!isEven ? "lg:order-1" : ""}
               >
-                <h2 className="text-sm font-semibold text-yellow-500 mb-2 uppercase tracking-wide">
+                <h2 className="text-sm font-semibold text-amber-600 mb-2 uppercase tracking-wide">
                   {person.role}
                 </h2>
                 <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
