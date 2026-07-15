@@ -51,6 +51,7 @@ export default function LeadershipMessages() {
                   <img
                     src={person.photo}
                     alt={person.name}
+                    loading="lazy"
                     className="w-full h-full object-cover object-top"
                   />
                 </div>

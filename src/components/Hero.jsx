@@ -120,6 +120,7 @@ export default function Hero() {
           <Link
             to="/about"
             className="border border-white text-white px-8 py-4 rounded-xl hover:bg-white hover:text-black transition"
+            aria-label="Learn more about Salig Ram Jaiswal Inter College"
           >
             Learn More
           </Link>

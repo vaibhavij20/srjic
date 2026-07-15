@@ -71,6 +71,7 @@ export default function Navbar() {
             <img
               src={logo}
               alt="Salig Ram Jaiswal Inter College Logo"
+              loading="eager"
               className="w-28 h-28 object-contain"
               style={{
                 filter:

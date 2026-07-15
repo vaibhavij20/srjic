@@ -49,6 +49,7 @@ export default function About() {
             <Link
               to="/about"
               className="inline-flex items-center gap-2 text-yellow-600 font-semibold hover:text-yellow-700 transition"
+              aria-label="Read full history of Salig Ram Jaiswal Inter College"
             >
               Read Our Full History
               <ArrowRight className="w-5 h-5" />
